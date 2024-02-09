@@ -1,0 +1,62 @@
+.navbar{
+	-fx-background-color: linear-gradient(to bottom right, #020024, #1313CF, #1D8499);
+}
+
+.botao-home-sair{
+	-fx-background-color: transparent;
+	-fx-cursor: hand;
+	-fx-text-fill: #FFF;
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+.botao-home-sair:hover{
+	-fx-background-color: #3ECFEE;
+}
+
+.botoes-crud{
+	-fx-background-color: #1313CF;
+	-fx-cursor: hand;
+	-fx-text-fill: #FFF;
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+}
+
+.botoes-crud:hover{
+	-fx-background-color: #3ECFEE;
+}
+
+
+.background{
+	-fx-background-color: #FFF;
+	-fx-background-radius: 8px;
+	-fx-border-color: linear-gradient(to bottom right, #020024, #1313CF, #1D8499);
+	-fx-border-width: 1px;
+	-fx-border-radius: 8px;
+}
+
+.table-view{
+	-fx-background-radius: 12px;
+}
+
+.table-view .column-header{
+	-fx-alignment: CENTER;
+}
+
+.table-view .column-header-background{
+	-fx-background-color: #1313CF;
+	-fx-background-radius: 8px;
+	-fx-background-inset: 0 0 0 0;
+}
+
+.table-view .column-header, .filter{
+	-fx-background-color: transparent;
+	-fx-size: 45px;
+}
+
+.table-view .column-header .label{
+	-fx-text-fill: #FFF;
+	-fx-font-family: Arial;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}

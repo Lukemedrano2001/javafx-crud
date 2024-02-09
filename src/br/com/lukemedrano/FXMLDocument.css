@@ -1,0 +1,75 @@
+.formulario-branco{
+	-fx-background-color: #FFF;
+}
+
+.outro-formulario{
+	-fx-background-color: linear-gradient(to bottom right, #020024, #1313CF, #1D8499);
+	-fx-text-fill: #FFF;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.botao-fechar{
+	-fx-background-color: #1313CF;
+}
+
+.botao-fechar:hover{
+	-fx-background-color: #1FABC9;
+	-fx-cursor: hand;
+}
+
+
+.botao-login-registro{
+	-fx-background-color: linear-gradient(to bottom right, #020024, #1313CF, #1D8499);
+	-fx-text-fill: #FFF;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.botao-login-registro:hover{
+	-fx-background-color: #1FABC9;
+	-fx-cursor: hand;
+}
+
+.botao{
+	-fx-background-color: transparent;
+	-fx-border-color: #FFF;
+	-fx-border-width: 1px;
+	-fx-text-fill: #FFF;
+	-fx-cursor: hand;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.botao:hover{
+	-fx-background-color: #FFF;
+	-fx-text-fill: #000;
+}
+
+.label-login-registro{
+	-fx-text-fill: #1313CF;
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+}
+
+.label-titulo{
+	-fx-text-fill: #FFF;
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+}
+
+.outros-labels{
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+	-fx-text-fill: #FFF;
+}
+
+.textfield {
+    -fx-focus-color: #1D8499; 
+}
+
+.textfield:focused {
+    -fx-border-color: #1D8499;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
