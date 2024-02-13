@@ -38,16 +38,17 @@ Produto
 ## Scripts SQL para criação das tabelas:
 
 ### Usuários:
-
+```sql
 CREATE TABLE usuarios(
 	id SERIAL PRIMARY KEY,
 	nome VARCHAR NOT NULL UNIQUE,
 	senha VARCHAR NOT NULL
-)
+);
+```
 
 
 ### Produtos:
-
+```sql
 CREATE TABLE produtos(
 	id SERIAL PRIMARY KEY,
 	nome VARCHAR NOT NULL UNIQUE,
@@ -55,7 +56,8 @@ CREATE TABLE produtos(
 	preco INT NOT NULL,
 	data_validade DATE NOT NULL,
 	qtd_estoque INT NOT NULL
-)
+);
+```
 
 
 ## Imagens
